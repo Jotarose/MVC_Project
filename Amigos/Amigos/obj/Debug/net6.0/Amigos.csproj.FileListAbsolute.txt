@@ -554,3 +554,4 @@ C:\Users\Juan\Desktop\AmigosAT\Amigos\Amigos\obj\Debug\net6.0\refint\Amigos.dll
 C:\Users\Juan\Desktop\AmigosAT\Amigos\Amigos\obj\Debug\net6.0\Amigos.pdb
 C:\Users\Juan\Desktop\AmigosAT\Amigos\Amigos\obj\Debug\net6.0\Amigos.genruntimeconfig.cache
 C:\Users\Juan\Desktop\AmigosAT\Amigos\Amigos\obj\Debug\net6.0\ref\Amigos.dll
+C:\Users\Juan\Desktop\AmigosAT\Amigos\Amigos\obj\Debug\net6.0\Amigos.sourcelink.json

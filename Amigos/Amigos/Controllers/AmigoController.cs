@@ -19,12 +19,57 @@ namespace Amigos.Controllers
             _context = context;
         }
 
-        // GET: Amigo
-        public async Task<IActionResult> Index()
+        // GET: Amigo - Filtrado por distancia
+        public async Task<IActionResult> Index(string longitud, string latitud, string distancia)
         {
-              return _context.Amigos != null ? 
-                          View(await _context.Amigos.ToListAsync()) :
-                          Problem("Entity set 'AmigoDBContext.Amigos'  is null.");
+            if (_context.Amigos == null)
+            {
+                return Problem("Entity set Amigos is null.");
+            }
+
+            var amigos = from m in _context.Amigos select m;
+
+            List<String> selectedNames = new List<String>();
+
+            if (!String.IsNullOrEmpty(longitud) && !String.IsNullOrEmpty(latitud) && (!String.IsNullOrEmpty(distancia)))
+            {
+                /*
+                 * Si las variables contienen algo, entro aqui
+                 */
+                Double _distancia = Convert.ToDouble(distancia);
+                Double _longitud = Convert.ToDouble(longitud);
+                Double _latitud = Convert.ToDouble(latitud);
+
+                Double amigoLongitud = 0;
+                Double amigoLatitud = 0;
+
+                Double amigoDistancia = 0;
+                Double x = 0;
+                Double y = 0;
+
+                foreach (var amigo in amigos)
+                {
+                    // Los tengo que convertir a doubles para que funcione bien
+                    amigoLatitud = Convert.ToDouble(amigo.lati);
+                    amigoLongitud = Convert.ToDouble(amigo.longi);
+
+                    x = (_latitud - amigoLatitud) * (_latitud - amigoLatitud);
+                    y = (_longitud - amigoLongitud) * (_longitud - amigoLongitud);
+
+                    amigoDistancia = Math.Sqrt(x + y);
+
+                    if (amigoDistancia < _distancia)
+                    {
+                        if (amigo.name != null)
+                        {
+                            selectedNames.Add(amigo.name);
+                        }
+                    }
+                }
+                amigos = amigos.Where(s => selectedNames.Contains(s.name!));
+            }
+            return View(await amigos.ToListAsync());
+
         }
 
         // GET: Amigo/Details/5
@@ -150,14 +195,14 @@ namespace Amigos.Controllers
             {
                 _context.Amigos.Remove(amigo);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AmigoExists(int id)
         {
-          return (_context.Amigos?.Any(e => e.ID == id)).GetValueOrDefault();
+            return (_context.Amigos?.Any(e => e.ID == id)).GetValueOrDefault();
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Amigos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+540c020e1f1cc5ce7a9a02db64891fd97f3e5784")]
 [assembly: System.Reflection.AssemblyProductAttribute("Amigos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Amigos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
