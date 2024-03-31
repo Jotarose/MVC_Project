@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Amigos.DataAccessLayer;
 using Amigos.Models;
+using Microsoft.AspNetCore.Localization;
 
 namespace Amigos.Controllers
 {
@@ -70,6 +71,18 @@ namespace Amigos.Controllers
             }
             return View(await amigos.ToListAsync());
 
+        }
+
+        //POST - Selección de lenguaje
+        [HttpPost]
+        public IActionResult ManejadorIdioma(string idioma, string urlRetorno)
+        {
+            //Creación de cookies en base al idioma seleccionado
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName, CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(idioma)),
+                new CookieOptions { Expires = DateTime.Now.AddDays(1) });
+
+            //return RedirectToAction(nameof(Index));
+            return LocalRedirect(urlRetorno);
         }
 
         // GET: Amigo/Details/5

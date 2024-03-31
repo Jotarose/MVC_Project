@@ -17,6 +17,14 @@
         },
         "runtime": {
           "Amigos.dll": {}
+        },
+        "resources": {
+          "en/Amigos.resources.dll": {
+            "locale": "en"
+          },
+          "es/Amigos.resources.dll": {
+            "locale": "es"
+          }
         }
       },
       "Humanizer/2.14.1": {

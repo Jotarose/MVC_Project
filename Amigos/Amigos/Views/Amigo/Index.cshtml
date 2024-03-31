@@ -1,3 +1,4 @@
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer internacionalizacion;
 @model IEnumerable<Amigos.Models.Amigo>
 
 @{
@@ -7,24 +8,24 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">@internacionalizacion["nuevo"]</a>
 </p>
 
 <!-- Creo el formulario para introducir la longitud, latitud y el nombre-->
 <form asp-controller="Amigo" asp-action="Index">
     <div style="margin-bottom: 10px;">
-        <label style="display: inline-block; width: 100px;">Longitud:</label>
+        <label style="display: inline-block; width: 100px;">@internacionalizacion["longi"]:</label>
         <input type="text" name="longitud" style="width: 200px; padding: 5px;" />
-        <input type="submit" value="Filter" />
+        <input type="submit" value=@internacionalizacion["filtro"] />
     </div>
 
     <div style="margin-bottom: 10px;">
-        <label style="display: inline-block; width: 100px;">Latitud:</label>
+        <label style="display: inline-block; width: 100px;">@internacionalizacion["lati"]:</label>
         <input type="text" name="latitud" style="width: 200px; padding: 5px;" />
     </div>
 
     <div style="margin-bottom: 10px;">
-        <label style="display: inline-block; width: 100px;">Distancia:</label>
+        <label style="display: inline-block; width: 100px;">@internacionalizacion["distancia"]:</label>
         <input type="text" name="distancia" style="width: 200px; padding: 5px;" />
     </div>
 </form>
@@ -34,13 +35,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.name)
+                @internacionalizacion["nom"]
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.longi)
+                @internacionalizacion["longi"]
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.lati)
+                @internacionalizacion["lati"]
             </th>
             <th></th>
         </tr>
@@ -58,9 +59,9 @@
                 @Html.DisplayFor(modelItem => item.lati)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.ID">@internacionalizacion["edit"]</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">@internacionalizacion["detalles"]</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">@internacionalizacion["eliminar"]</a>
             </td>
         </tr>
 }

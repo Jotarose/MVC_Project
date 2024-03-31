@@ -1,30 +1,34 @@
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer internacionalizacion;
 @model Amigos.Models.Amigo
 
 @{
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>@internacionalizacion["borrado"]</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>@internacionalizacion["confirmacion"]</h3>
 <div>
-    <h4>Amigo</h4>
+ 
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.name)
+            @* @Html.DisplayNameFor(model => model.name) *@
+            @internacionalizacion["nom"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.longi)
+            @* @Html.DisplayNameFor(model => model.longi) *@
+            @internacionalizacion["longi"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.longi)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.lati)
+           @*  @Html.DisplayNameFor(model => model.lati) *@
+            @internacionalizacion["lati"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.lati)
@@ -33,7 +37,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="ID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value=@internacionalizacion["borrado"] class="btn btn-danger" /> |
+        <a asp-action="Index">@internacionalizacion["vuelta"]</a>
     </form>
 </div>

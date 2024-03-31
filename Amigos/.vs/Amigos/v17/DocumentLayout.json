@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\material\\views\\amigo\\details.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\material\\views\\amigo\\details.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\material\\views\\amigo\\details.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\material\\views\\amigo\\details.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\views\\amigo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\views\\amigo\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\material\\views\\amigo\\delete.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\material\\views\\amigo\\delete.en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\views\\amigo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\views\\amigo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\material\\views\\amigo\\delete.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\material\\views\\amigo\\delete.es.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|c:\\users\\juanb\\source\\repos\\mvc_project\\amigos\\amigos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A41141F8-485F-402A-9C85-683FC3C5EC71}|Amigos\\Amigos.csproj|solutionrelative:amigos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.en.resx",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Details.en.resx",
+              "RelativeDocumentMoniker": "Amigos\\Material\\Views\\Amigo\\Details.en.resx",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Details.en.resx",
+              "RelativeToolTip": "Amigos\\Material\\Views\\Amigo\\Details.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-31T11:26:00.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Views\\Amigo\\Details.cshtml",
+              "RelativeDocumentMoniker": "Amigos\\Views\\Amigo\\Details.cshtml",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Views\\Amigo\\Details.cshtml",
+              "RelativeToolTip": "Amigos\\Views\\Amigo\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T11:20:02.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.es.resx",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Details.es.resx",
+              "RelativeDocumentMoniker": "Amigos\\Material\\Views\\Amigo\\Details.es.resx",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Details.es.resx",
+              "RelativeToolTip": "Amigos\\Material\\Views\\Amigo\\Details.es.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-31T11:19:48.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Views\\Amigo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Amigos\\Views\\Amigo\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Views\\Amigo\\Delete.cshtml",
+              "RelativeToolTip": "Amigos\\Views\\Amigo\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T11:12:03.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.en.resx",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Delete.en.resx",
+              "RelativeDocumentMoniker": "Amigos\\Material\\Views\\Amigo\\Delete.en.resx",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Delete.en.resx",
+              "RelativeToolTip": "Amigos\\Material\\Views\\Amigo\\Delete.en.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-31T11:14:33.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.es.resx",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Delete.es.resx",
+              "RelativeDocumentMoniker": "Amigos\\Material\\Views\\Amigo\\Delete.es.resx",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Material\\Views\\Amigo\\Delete.es.resx",
+              "RelativeToolTip": "Amigos\\Material\\Views\\Amigo\\Delete.es.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-31T11:11:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Program.cs",
+              "RelativeDocumentMoniker": "Amigos\\Program.cs",
+              "ToolTip": "C:\\Users\\JUANB\\source\\repos\\MVC_Project\\Amigos\\Amigos\\Program.cs",
+              "RelativeToolTip": "Amigos\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T21:25:51.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

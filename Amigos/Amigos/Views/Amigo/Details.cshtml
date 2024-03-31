@@ -1,29 +1,32 @@
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer internacionalizacion;
 @model Amigos.Models.Amigo
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>@internacionalizacion["detalle"]</h1>
 
 <div>
-    <h4>Amigo</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.name)
+            @* @Html.DisplayNameFor(model => model.name) *@
+            @internacionalizacion["nom"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.longi)
+            @* @Html.DisplayNameFor(model => model.longi) *@
+            @internacionalizacion["longi"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.longi)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.lati)
+            @* @Html.DisplayNameFor(model => model.lati) *@
+            @internacionalizacion["lati"]
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.lati)
@@ -31,6 +34,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">@internacionalizacion["edit"]</a> |
+    <a asp-action="Index">@internacionalizacion["vuelta"]</a>
 </div>
