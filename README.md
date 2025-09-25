@@ -92,9 +92,21 @@ La aplicación estará disponible en http://localhost:5088 (o el puerto configur
 - Cambia el idioma desde el menú superior.
 - Crea, edita, visualiza o elimina amigos desde la tabla principal.
 
+## Internacionalización
+
+- Los textos de la interfaz están en archivos .resx dentro de Material/Controllers y Material/Views/Amigo.
+- Para añadir un nuevo idioma, crea los archivos .resx correspondientes y actualiza la configuración en Program.cs.
+
 ## Tecnologías utilizadas
 
 - ASP.NET Core MVC
 - Entity Framework Core (SQLite)
 - Bootstrap 5
 - jQuery y jQuery Validation
+
+## Licencias de Dependencias
+
+- Bootstrap - MIT
+- jQuery - MIT
+- jQuery Validation - MIT
+- jQuery Validation Unobtrusive - Apache 2.0
